@@ -261,3 +261,26 @@ h2
 {
   color:#999;
 }
+
+
+/*the style of sign up button*/
+.btn {
+  padding: 2em 4%;
+  text-align: center;
+}
+.btn a {
+  background: #56bc94;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  display: block;
+  display: block;
+  line-height: 2.5;
+  width: 100%;
+}
+.btn a:hover
+{  
+  background-color: #3fa07a;
+}
