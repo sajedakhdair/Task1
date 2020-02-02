@@ -391,3 +391,124 @@ top:0 ;
 left: 9px;
 }
 /*end of popular*/
+
+
+/*Contact us form*/
+/*Contact info*/
+.contact
+{  
+    background-image: url(bg.png);
+    background-color: #56bc94;
+    font-family: 'Lato', arial, sans-serif;
+    color: #fff;
+    padding: 8% 0;
+    width: 100%;
+  }
+.contact .contact-title
+ {
+   margin-bottom: 30px;
+   margin-top: 0;
+   text-align: center!important;
+   font-size: 2rem;
+   font-weight: 500;
+}
+.contact-text
+{
+    text-align: center!important;
+    padding-bottom: 18px;
+}
+.contact .contact-text p
+ {
+    font-size: 16px;
+    margin-top: 10;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 3%;
+    margin-block-end: 2%;
+    margin-inline-start: 29%;
+    margin-inline-end:26%;
+}
+/*contact icon*/
+.phone,.website a
+{  color: #317b5e;
+  text-decoration: none;
+  padding-bottom: 28px;
+}
+.contact-text li
+{
+  padding-top: 10px;
+}
+.fa-envelope,.fa-phone-square
+{
+  margin-right: 8px;
+  margin-left: 10px;
+  font-family: 'FontAwesome';
+  color: #317b5e;
+}
+/*entry of contact form */
+form
+{
+  display: block;
+  margin-top: 0em;
+}
+.form-group
+{
+margin-bottom: 1rem;
+margin-left: 7%;
+width: 86.5%;
+}
+.text-center {
+  text-align: center!important;
+}
+.contact .contact-form .form-control {
+  border-color: #fff;
+  height: auto;
+  padding: 10px 15px;
+  margin-left: 27%;
+  display: block;
+  width: 50%;
+  font-size: 1rem;
+  font-weight: 400;
+   line-height: 1.5;
+   color: #495057;
+   background-color: #fff;
+   border: 1px solid #fff;
+   border-radius: .25rem;
+   overflow: visible;
+   font-family: inherit;
+   }
+   #message
+   {
+    padding-bottom: 10%;
+   }
+/* button send message*/
+.contact .contact-form .btn{
+    background-color: #317b5e;
+    margin-top: 15px;
+    border: 1px solid #56bc94;
+    color: #fff;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    display: inline-block;
+}
+/*social media icon */
+.text-center .social-icons .fab ,.fa-facebook
+{
+  font-size: 25px;
+  font-family: 'FontAwesome'; 
+  color: #fff;
+}
+.social-icons ul {
+  list-style: none;
+  text-align: center;
+}
+.social-icons li {
+  display: inline-block;
+  margin-left: 17px;
+  margin-right: 16px;
+  margin-top: 80px;
+  padding-left: -6px;
+  padding-right: -6px;
+}
