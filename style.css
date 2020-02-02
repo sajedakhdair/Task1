@@ -556,3 +556,24 @@ width: 86.5%;
    }
 }
 
+
+/*footer*/
+.footer .copyright {
+  color: #b3b3b3;
+  margin-right: 15px;
+}
+.footer {
+  background: #444;
+  color: #fff;
+  padding: 15px 0;
+  font-family: 'Lato', arial, sans-serif;
+}
+
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+ .copyright a {
+  color: #56bc94;
+  text-decoration: none;
+} 
