@@ -329,3 +329,65 @@ h2
  text-align: center;
   bottom: -1px;
 } 
+
+
+/*popular*/
+.Professional .plan-inner
+  {
+    padding-bottom: 17px;
+    top: -15px;  
+  }
+  .Professional .entry-title
+  {
+    height: 145px;
+
+    padding-top:20px;
+  }
+/*/////////////*/
+.ribbon
+{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top:-5px;
+  right:-5px;
+  overflow: hidden;
+}
+.ribbon span
+{
+  width: 225px;
+  padding: 12px 0px;
+  padding-right: 25px;
+  background: #3fa07a;
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: -25px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  transform: rotate(45deg) ;
+  font-size: 13.5px;
+  font-weight: bold;
+}
+.ribbon::after,.ribbon::before
+{
+content: '';
+ border-top: 3px solid transparent;
+ border-right: 3px solid transparent;
+ border-bottom: 3px solid #225742;
+border-left: 3px solid #225742;
+position: absolute;
+}
+.ribbon::after
+{
+  
+bottom: 10px;
+right: 0;
+}
+.ribbon::before
+{
+top:0 ;
+left: 9px;
+}
+/*end of popular*/
