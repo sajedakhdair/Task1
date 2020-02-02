@@ -150,3 +150,114 @@ nav a:hover
   .header .bars:checked ~ .header__nav-menu  a:hover {
     color: #56bc94;
   }
+  
+/*body style  */
+body
+{
+  background-image: url(bg.png);
+  background-color:rgb(243,242,242); 
+}
+/*the title of plan section*/
+h2
+{
+    position: relative;
+    padding-top: 150px;
+    text-align: center;
+    font-family:'Lato',arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #444;
+}
+/*the style of three plans */
+.plan-div
+{
+    display :flex;
+    flex-direction: row;
+    justify-content: center;    
+    position: relative;
+    padding-top: 60px;
+    padding-left: 1%;
+    padding-right:1%;
+    padding-bottom: 7%;
+}
+.plan {
+    display: inline-block;
+    margin: 1.7% 1.25%;
+    font-family: 'Lato', Arial, sans-serif;
+  }
+.plan-inner {
+    background: #fff;
+    margin: 5% auto;
+    min-width: 100%;
+    max-width: 100%;
+    position:relative;
+    border-radius: 0.25rem;/*////////*/
+  }
+  .entry-title
+  {
+        background: #c4e7d9;
+        height: 130px;
+        position: relative;
+        display: flex;
+        justify-content:center ;
+        text-align: center;
+        margin-bottom: 70px;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+  }
+.entry-title>h3 {
+    background: #c4e7d9;
+    color:#225742;
+    font-size: 18px; /*18px*/
+    text-align: center;
+    padding-top: 35px ;/*35*/
+   font-weight: 500;
+    margin: 0;
+  }
+
+   
+/*the style of list */
+.entry-content {
+  color: #323232;
+ 
+}
+.entry-content ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  text-align: center;
+}
+.entry-content li {
+  border-bottom: 1px solid #efefef;
+  font-family:  'Lato',arial, sans-serif;
+  padding: 10px 0;
+
+  min-width: 100%;
+  max-width: 100%;
+  /*///////////////////////////////*/
+  text-align: center;
+
+  display: block;
+  white-space: nowrap;
+  width: 17em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+/*//////////////////////////////////////////*/
+}
+
+/*the style of icons before the list-item*/
+.fa-check,.fa-times,.item-disable
+{
+  margin-right: 8px;
+  margin-left: 10px;
+  font-family: 'FontAwesome';
+}
+.fa-check
+{
+  color:#56bc94;  
+}
+.fa-times,.item-disable
+{
+  color:#999;
+}
