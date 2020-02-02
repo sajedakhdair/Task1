@@ -80,3 +80,73 @@ nav a:hover
     color: #56bc94;
 }
 
+/************************************************************************************/
+.header i, .bars {
+    display: none;
+  }
+@media (max-width:51em) {
+    .header {
+        flex-direction: column;
+    }
+    .header__nav-menu {
+        display: none;
+    }    
+    .header__nav-menu ul {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }      
+
+    .nav__list li
+{
+    margin-left: -50%;
+    margin-bottom: 14%;
+    margin-top: 14%;
+}
+
+.header__logo
+{
+    margin-left: 3%;
+}
+    .bars {
+        display: block;
+        position: absolute;
+        right: 25px;
+        top: 17px;
+        width: 55px;
+        height: 40px;
+        align-self: center;
+        opacity: 0;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .header i {    
+        display: block; 
+        position: absolute;
+        color: rgb(187, 180, 180);
+        right: 25px;
+        top: 17px;
+        padding: 5px 15px;
+        font-size: 35px;
+        text-align: center;
+        border-radius: 3px;
+        border: rgb(207, 207, 207) 0.5px solid;
+        align-self: center;  
+    }
+    .fal
+    {
+        font-family: 'FontAwesome';
+    }
+}
+.header .bars:checked ~ .header__nav-menu  {
+    display: flex;
+    flex-direction: column;
+}
+  .header .bars:checked ~ .header__nav-menu  a {
+      display: flex;
+    flex-direction: column;
+    color: #444;
+  }
+  .header .bars:checked ~ .header__nav-menu  a:hover {
+    color: #56bc94;
+  }
