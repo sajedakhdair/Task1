@@ -393,6 +393,7 @@ left: 9px;
 /*end of popular*/
 
 
+
 /*Contact us form*/
 /*Contact info*/
 .contact
@@ -554,5 +555,17 @@ width: 86.5%;
    {
     padding-bottom: 28%;
    }
+}
+
+/* mobile view for plan-section*/
+@media screen and (max-width: 950px) {
+  .plan-div
+  {
+    flex-direction: column;
+    justify-content: center;    
+  }
+  .plan {
+    margin: 1.7% 3%;
+  }
 }
 
