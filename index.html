@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Simple UI Project</title>
   </head>
   <body>
@@ -18,8 +21,8 @@
           </a>
         </h1>
         <!--//logo-->
-                <input type="checkbox" class="bars">
-                <i class="fal fa-bars"></i>
+        <input type="checkbox" class="bars" />
+        <i class="fal fa-bars"></i>
         <nav class="header__nav-menu">
           <div class="nav">
             <ul class="nav__list">
@@ -50,6 +53,171 @@
       </div>
       <!--header-->
     </header>
-
-</body>
+    <div class="container">
+      <div id="title" class="plan-title">
+        <h2>Choose your plan today</h2>
+      </div>
+      <div class="plan-div">
+        <!--price tab 1-->
+        <div class="plan personal">
+          <div class="plan-inner">
+            <div class="entry-title">
+              <h3>Personal</h3>
+              <div class="price">
+                <span class="currency">$</span>
+                <span class="number">5</span>
+                <br />
+                <span class="unit">per month</span>
+              </div>
+            </div>
+            <div class="entry-content">
+              <ul>
+                <li><i class="fa fa-check" aria-hidden="true"></i>1 user</li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i>10 GB storage
+                </li>
+                <li class="item-disable">
+                  <i class="fas fa-times"></i>Email priprity support
+                </li>
+                <li class="item-disable">
+                  <i class="fas fa-times"></i>Free update
+                </li>
+                <li class="item-disable">
+                  <i class="fas fa-times"></i>24/7 support
+                </li>
+              </ul>
+            </div>
+            <div class="btn">
+              <a href="#Sign up">Sign up</a>
+            </div>
+          </div>
+        </div>
+        <!-- end of price tab 1-->
+        <!--price tab 2-->
+        <div class="plan Professional">
+          <!--basic-->
+          <div class="plan-inner">
+            <div class="entry-title">
+              <div class="ribbon">
+                <span> popular</span>
+              </div>
+              <h3>Professional</h3>
+              <div class="price">
+                <span class="currency">$</span>
+                <span class="number">10</span>
+                <br />
+                <span class="unit">per month</span>
+              </div>
+            </div>
+            <div class="entry-content">
+              <ul>
+                <li><i class="fa fa-check" aria-hidden="true"></i>10 users</li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i>30 GB storage
+                </li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i>Email priority
+                  support
+                </li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i>Free update
+                </li>
+                <li class="item-disable">
+                  <i class="fas fa-times"></i>24/7 support
+                </li>
+              </ul>
+            </div>
+            <div class="btn">
+              <a href="#Sign up"> Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <!-- end of price tab 2-->
+        <!--price tab 3-->
+        <div class="plan Business">
+          <!--standard-->
+          <div class="plan-inner">
+            <div class="entry-title">
+              <h3>Business</h3>
+              <div class="price">
+                <span class="currency">$</span>
+                <span class="number">25</span>
+                <br />
+                <span class="unit">per month</span>
+              </div>
+            </div>
+            <div class="entry-content">
+              <ul>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i>Unlimited user
+                </li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i>100 GB storage
+                </li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i>Email priority
+                  support priority for for
+                </li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i>Free update
+                </li>
+                <li>
+                  <i class="fa fa-check" aria-hidden="true"></i>24/7 support
+                </li>
+              </ul>
+            </div>
+            <div class="btn">
+              <a href="#Sign up">Sign Up</a>
+            </div>
+          </div>
+        </div>
+        <!-- end of price tab 3-->
+      </div>
+      <!-- end of plan-div -->
+    </div>
+    <section class="contact">
+      <h4 class="contact-title">Contact US</h4>
+        <div class="contact-text">
+          <p>We’d love to hear from you. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Nullam ut erat magna.Aliquam porta sem a lacus imperdiet posuere. Integer semper eget ligula id eleifend.
+          </p>
+          <ul>
+            <li class="website"> <i class="fas fa-envelope"></i>
+              <a href="mailto:hello@website.com">hello@website.com</a>
+            </li>
+            <li class="phone"><i class="fas fa-phone-square"></i>0800 123 456</li>
+          </ul>
+        </div>
+      <div class="text-center">
+        <div class="contact-form ">                            
+            <form class="form">                
+                <div class="form-group name">
+                    <input id="name" type="text" class="form-control" placeholder="NAME:">
+                </div><!--//form-group name-->
+                <div class="form-group email">
+                    <input id="email" type="email" class="form-control" placeholder="EMAIL:">
+                </div><!--//form-group email-->
+                <div class="form-group message">
+                    <textarea id="message" class="form-control" placeholder="MESSAGE:"></textarea>
+                </div><!--//form-group message-->
+                <button type="submit" class="btn">Send Message</button>
+            </form><!--//form-->                 
+        </div><!--//contact-form-->
+    </div>
+    <div class="text-center">
+      <ul class="social-icons">
+         <li ><a href="#"><i class="fab fa-twitter"></i></a></li>
+         <li ><a href="#"><i class="fab fa-facebook"></i></i></a></li>    
+         <li ><a href="#"><i class="fab fa-linkedin"></i></a></li>    
+         <li ><a href="#"><i class="fab fa-google-plus"></i></a></li>    
+     </ul><!--//social-icons-->
+  </div>
+  </section>      <!-- end of contact-section -->
+  <footer class="footer">
+    <div class="container text-center">
+        <small class="copyright">Template Copyright ©
+           <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>
+    </div>
+  </footer>
+  </body>
 </html>

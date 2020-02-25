@@ -150,3 +150,445 @@ nav a:hover
   .header .bars:checked ~ .header__nav-menu  a:hover {
     color: #56bc94;
   }
+  
+/*body style  */
+body
+{
+  background-image: url(bg.png);
+  background-color:rgb(243,242,242); 
+}
+/*the title of plan section*/
+h2
+{
+    position: relative;
+    padding-top: 150px;
+    text-align: center;
+    font-family:'Lato',arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #444;
+}
+/*the style of three plans */
+.plan-div
+{
+    display :flex;
+    flex-direction: row;
+    justify-content: center;    
+    position: relative;
+    padding-top: 60px;
+    padding-left: 1%;
+    padding-right:1%;
+    padding-bottom: 7%;
+}
+.plan {
+    display: inline-block;
+    margin: 1.7% 1.25%;
+    font-family: 'Lato', Arial, sans-serif;
+  }
+.plan-inner {
+    background: #fff;
+    margin: 5% auto;
+    min-width: 100%;
+    max-width: 100%;
+    position:relative;
+    border-radius: 0.25rem;/*////////*/
+  }
+  .entry-title
+  {
+        background: #c4e7d9;
+        height: 130px;
+        position: relative;
+        display: flex;
+        justify-content:center ;
+        text-align: center;
+        margin-bottom: 70px;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+  }
+.entry-title>h3 {
+    background: #c4e7d9;
+    color:#225742;
+    font-size: 18px; /*18px*/
+    text-align: center;
+    padding-top: 35px ;/*35*/
+   font-weight: 500;
+    margin: 0;
+  }
+
+   
+/*the style of list */
+.entry-content {
+  color: #323232;
+ 
+}
+.entry-content ul {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  text-align: center;
+}
+.entry-content li {
+  border-bottom: 1px solid #efefef;
+  font-family:  'Lato',arial, sans-serif;
+  padding: 10px 0;
+
+  min-width: 100%;
+  max-width: 100%;
+  /*///////////////////////////////*/
+  text-align: center;
+
+  display: block;
+  white-space: nowrap;
+  width: 17em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+/*//////////////////////////////////////////*/
+}
+
+/*the style of icons before the list-item*/
+.fa-check,.fa-times,.item-disable
+{
+  margin-right: 8px;
+  margin-left: 10px;
+  font-family: 'FontAwesome';
+}
+.fa-check
+{
+  color:#56bc94;  
+}
+.fa-times,.item-disable
+{
+  color:#999;
+}
+
+
+/*the style of sign up button*/
+.btn {
+  padding: 2em 4%;
+  text-align: center;
+}
+.btn a {
+  background: #56bc94;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  font-weight: 400;
+  display: block;
+  display: block;
+  line-height: 2.5;
+  width: 100%;
+}
+.btn a:hover
+{  
+  background-color: #3fa07a;
+}
+/*the style of price */
+.entry-title .price {
+  position: absolute;
+  bottom: -60px;
+  background: #56bc94;
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 5px solid #9fd9c2;/**/
+  line-height: 120px;
+  color: #fff;
+}
+.price .currency 
+{
+  position:absolute;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-top: 0px;
+  padding-left: 4px;
+  text-align: center;
+  color: #fff;
+  bottom: -1px;
+  left: 34px;
+}
+.price .number 
+{
+  font-size: 28px;
+  padding-left: 10px;
+  font-weight: 400;
+  line-height: 2.9;
+  left:35px;
+} 
+.price .unit 
+{
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 3.6;
+  left:10px; 
+ text-align: center;
+  bottom: -1px;
+} 
+
+
+/*popular*/
+.Professional .plan-inner
+  {
+    padding-bottom: 17px;
+    top: -15px;  
+  }
+  .Professional .entry-title
+  {
+    height: 145px;
+
+    padding-top:20px;
+  }
+/*/////////////*/
+.ribbon
+{
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top:-5px;
+  right:-5px;
+  overflow: hidden;
+}
+.ribbon span
+{
+  width: 225px;
+  padding: 12px 0px;
+  padding-right: 25px;
+  background: #3fa07a;
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: -25px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  transform: rotate(45deg) ;
+  font-size: 13.5px;
+  font-weight: bold;
+}
+.ribbon::after,.ribbon::before
+{
+content: '';
+ border-top: 3px solid transparent;
+ border-right: 3px solid transparent;
+ border-bottom: 3px solid #225742;
+border-left: 3px solid #225742;
+position: absolute;
+}
+.ribbon::after
+{
+  
+bottom: 10px;
+right: 0;
+}
+.ribbon::before
+{
+top:0 ;
+left: 9px;
+}
+/*end of popular*/
+
+
+
+/*Contact us form*/
+/*Contact info*/
+.contact
+{  
+    background-image: url(bg.png);
+    background-color: #56bc94;
+    font-family: 'Lato', arial, sans-serif;
+    color: #fff;
+    padding: 8% 0;
+    width: 100%;
+  }
+.contact .contact-title
+ {
+   margin-bottom: 30px;
+   margin-top: 0;
+   text-align: center!important;
+   font-size: 2rem;
+   font-weight: 500;
+}
+.contact-text
+{
+    text-align: center!important;
+    padding-bottom: 18px;
+}
+.contact .contact-text p
+ {
+    font-size: 16px;
+    margin-top: 10;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 3%;
+    margin-block-end: 2%;
+    margin-inline-start: 29%;
+    margin-inline-end:26%;
+}
+/*contact icon*/
+.phone,.website a
+{  color: #317b5e;
+  text-decoration: none;
+  padding-bottom: 28px;
+}
+.contact-text li
+{
+  padding-top: 10px;
+}
+.fa-envelope,.fa-phone-square
+{
+  margin-right: 8px;
+  margin-left: 10px;
+  font-family: 'FontAwesome';
+  color: #317b5e;
+}
+/*entry of contact form */
+form
+{
+  display: block;
+  margin-top: 0em;
+}
+.form-group
+{
+margin-bottom: 1rem;
+margin-left: 7%;
+width: 86.5%;
+}
+.text-center {
+  text-align: center!important;
+}
+.contact .contact-form .form-control {
+  border-color: #fff;
+  height: auto;
+  padding: 10px 15px;
+  margin-left: 27%;
+  display: block;
+  width: 50%;
+  font-size: 1rem;
+  font-weight: 400;
+   line-height: 1.5;
+   color: #495057;
+   background-color: #fff;
+   border: 1px solid #fff;
+   border-radius: .25rem;
+   overflow: visible;
+   font-family: inherit;
+   }
+   #message
+   {
+    padding-bottom: 10%;
+   }
+/* button send message*/
+.contact .contact-form .btn{
+    background-color: #317b5e;
+    margin-top: 15px;
+    border: 1px solid #56bc94;
+    color: #fff;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    display: inline-block;
+}
+/*social media icon */
+.text-center .social-icons .fab ,.fa-facebook
+{
+  font-size: 25px;
+  font-family: 'FontAwesome'; 
+  color: #fff;
+}
+.social-icons ul {
+  list-style: none;
+  text-align: center;
+}
+.social-icons li {
+  display: inline-block;
+  margin-left: 17px;
+  margin-right: 16px;
+  margin-top: 80px;
+  padding-left: -6px;
+  padding-right: -6px;
+}
+
+/*mobile View (contact-us ) */
+@media screen and (max-width: 950px) {
+  .contact .contact-text p
+  {
+     font-size: 16px;
+     display: block;
+
+     margin-block-start: 0.2%;
+     margin-block-end: 0.2%;
+     margin-inline-start: 3%;
+     margin-inline-end:3%;
+     margin-bottom: 5.5%;
+ }
+
+ .form-group
+ {
+ margin-bottom: 1rem;
+ margin-left: 3%;
+ width: 93%;
+ }
+ .contact .contact-form .form-control {
+  border-color: #fff;
+  height: auto;
+  padding: 10px 15px;
+  margin-left: 0.5%;
+  display: block;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+   line-height: 1.5;
+   color: #495057;
+   background-color: #fff;
+   border: 1px solid #fff;
+   border-radius: .25rem;
+   overflow: visible;
+   font-family: inherit;
+   }
+   #message
+   {
+    padding-bottom: 28%;
+   }
+}
+
+
+
+/*footer*/
+.footer .copyright {
+  color: #b3b3b3;
+  margin-right: 15px;
+}
+.footer {
+  background: #444;
+  color: #fff;
+  padding: 15px 0;
+  font-family: 'Lato', arial, sans-serif;
+}
+
+.small {
+  font-size: 80%;
+  font-weight: 400;
+}
+ .copyright a {
+  color: #56bc94;
+  text-decoration: none;
+} 
+
+/* mobile view for plan-section*/
+@media screen and (max-width: 950px) {
+  .plan-div
+  {
+    flex-direction: column;
+    justify-content: center;    
+  }
+  .plan {
+    margin: 1.7% 3%;
+  }
+}
+
